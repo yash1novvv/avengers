@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avengers</title>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <h2 class="title">Movies catalog</h2>
+
+        <div class="d1">
+
+            <div>
+
+                <form action="https://echo.htmlacademy.ru">
+                    <input class="input" name="text" type="text" placeholder="Movie name" maxlength="15" required autocomplete="off">
+                    <input class="input" name="number" type="number" placeholder="Number" required autocomplete="off">
+                    <select class="select" name="kino" id="kinos">
+                        <option class="option" value="item" selected disabled>ALL</option>
+                        <option class="option" value="1">Kino Kino</option>
+                        <option class="option" value="2">Kino</option>
+                        <option class="option" value="3">Kino Kino</option>
+                        <option class="option" value="3">Kino Kino</option>
+                        <option class="option" value="3">Kino Kino Kino</option>
+                    </select>
+                    <select class="select" name="film" id="films">
+                        <option class="option" value="item" selected disabled>Rating (high to low)</option>
+                        <option class="option" value="1">films films</option>
+                        <option class="option" value="2">Kino films</option>
+                        <option class="option" value="3">Films Kino</option>
+                        <option class="option" value="3">Kino Films Kino</option>
+                        <option class="option" value="3">Kino Kino films</option>
+                    </select>
+                    <button class="button" type="submit">Search</button>
+                </form>
+
+                <h2 class="bookmarked">Bookmarked movies</h2>
+
+                <div class="div div1">
+                    <h3 class="avengers">Avengers:Infinity War</h3>
+                    <a class="remove" href="#">
+                        Remove
+                    </a>
+                </div>
+
+                <div class="div">
+                    <h3 class="avengers">The Avengers</h3>
+                    <a class="remove" href="#">
+                        Remove
+                    </a>
+                </div>
+
+                <div class="div div2">
+                    <h3 class="avengers">12 years a slave</h3>
+                    <a class="remove" href="#">
+                        Remove
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="divv">
+
+                <p class="text__search">Search results: 39</p>
+
+                <p class="text__use">Use the form on the left to search for a movie</p>
+
+                <ul class="list">
+                    <li class="item">
+                        <img class="avengers__img" src="img/avengers1.jpg" width="350" height="200" alt="avengers1">
+                        <h2 class="title__avengers">Avengers:Infinity War</h2>
+                        <div class="yil">
+                            <img src="img/kalendar.jpg" alt="kalendar">
+                            <p class="p2018">2018</p>
+                        </div>
+                        <div class="acko">
+                            <img src="img/zvezda.jpg" alt="zvezda">
+                            <p class="p87">8.7</p>
+                        </div>
+                        <a class="watch__link" href="#">Watch Triler</a>
+                        <a class="more__link" href="#">More info</a>
+                        <a class="Bookmark__link" href="#">Bookmark</a>
+                    </li>
+                    <li class="item">
+                        <img class="avengers__img" src="img/avengers2.jpg" width="350" height="200" alt="avengers2">
+                        <h2 class="title__avengers">The avengers</h2>
+                        <div class="yil">
+                            <img src="img/kalendar.jpg" alt="kalendar">
+                            <p class="p2018">2012</p>
+                        </div>
+                        <div class="acko">
+                            <img src="img/zvezda.jpg" alt="zvezda">
+                            <p class="p87">8.1</p>
+                        </div>
+                        <a class="watch__link" href="#">Watch Triler</a>
+                        <a class="more__link" href="#">More info</a>
+                        <a class="Bookmark__link" href="#">Bookmark</a>
+                    </li>
+                </ul>
+
+                <ul class="list2">
+                    <li class="items items2"><a class="link__number lnumber2" href="#">1</a></li>
+                    <li class="items"><a class="link__number" href="#">2</a></li>
+                    <li class="items"><a class="link__number" href="#">3</a></li>
+                    <li class="items"><a class="link__number lnumber3" href="#">4</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
